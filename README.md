@@ -6,8 +6,8 @@ This demo reuses code from Drew DeVaults project [mcwaface](https://github.com/d
 ## Compiling
 
 ```shell
-mkdir build
-cd build
+mkdir builddir
+cd builddir
 meson ..
 ninja
 ```
