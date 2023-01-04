@@ -12,5 +12,12 @@ meson ..
 ninja
 ```
 
-This will produce a binary named `mcwayface`, this is your compositor. Run it
-without any arguments.
+## Running
+This will produce a binary named `waywalker`, this is your compositor. Run it
+without any arguments or with `-s command` to specify a startup command like
+a terminal emulator.
+
+```shell
+./waywalker -s xterm
+```
+
